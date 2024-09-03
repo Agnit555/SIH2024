@@ -3,8 +3,21 @@ span{
 }
 footer{
     background-color: rgb(144, 238, 144, 0.5);
-    color: white;
+    color: rgb(14, 42, 2);
     h4{
-        color: black;
+        color: rgb(1, 40, 4);
     }
+    
 }
+
+#img{
+    border: 3px solid black;
+}
+
+#textFooter{
+    text-decoration: none;
+}
+
+/* #footer{
+    background-color: green;
+} */
