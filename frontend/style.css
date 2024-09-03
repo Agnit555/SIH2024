@@ -1,0 +1,10 @@
+span{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(144, 238, 144, 0.5);
+    color: white;
+    h4{
+        color: black;
+    }
+}
