@@ -1,3 +1,12 @@
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+  }
+
 span{
     text-decoration: none;
 }
@@ -10,6 +19,10 @@ footer{
     
 }
 
+#imggg {
+    mix-blend-mode: multiply; /* Or another blend mode */
+  }
+
 #img{
     border: 3px solid black;
 }
@@ -18,6 +31,33 @@ footer{
     text-decoration: none;
 }
 
-/* #footer{
-    background-color: green;
-} */
+#heading{
+    display: flex;
+    justify-content: center;
+    color: rgba(4, 101, 14, 0.915);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bimg{
+    height: 30px;
+    width: 30px;
+    mix-blend-mode: multiply;
+}
+
+#MBackImg{
+    background-image: url('/frontend/images/Untitled\ design.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.hr_separator {
+    width: 80%; /* Adjust the width as needed */
+    border: 0; /* Remove the default border */
+    border-top: 5px solid #ffffff; /* Set the thickness and color of the line */
+    margin: 20px auto; /* Center the line horizontally with margin */
+}
+
+#activeLink {
+    color: #319610; /* Set your desired color */
+    font-weight: bold; /* Optional: Make the text bold */
+}
