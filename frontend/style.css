@@ -30,6 +30,53 @@ footer{
 #textFooter{
     text-decoration: none;
 }
+.objective{
+    margin: 10px;
+}
+#solution{
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    color:rgb(144, 238, 144); 
+    
+}
+.objective_p1{
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.row {
+    margin-top: 10px;
+    display: flex;
+    align-items: center; /* Optional: vertically centers the content */
+  }
+  
+  .objimg {
+    margin-right: 20px; /* Adjust the spacing between the image and the text */
+  }
+  
+  .objective2 {
+    flex: 1; /* Optional: allows the text block to take up the remaining space */
+    font-size: 17px;
+  }
+#venimg{
+    height: 350px;
+    width: 500px;
+}
+#pree{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#objective_p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.objcheckmark{
+    font-size: 17px;
+    font-weight: bold;
+}
 
 #heading{
     display: flex;
