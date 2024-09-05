@@ -95,6 +95,7 @@ footer{
 #venimg{
     height: 350px;
     width: 500px;
+    mix-blend-mode: multiply;
 }
 #pree{
     margin-top: 5px;
