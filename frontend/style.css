@@ -42,6 +42,7 @@ footer{
     height: 30px;
     width: 30px;
     mix-blend-mode: multiply;
+    
 }
 
 #MBackImg{
@@ -112,3 +113,15 @@ footer{
 /* #footer{
     background-color: green;
 } */
+
+#products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#img22{
+    mix-blend-mode: multiply; 
+    
+}
