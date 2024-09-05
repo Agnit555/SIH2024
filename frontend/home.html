@@ -50,16 +50,10 @@
 
           <!-- Language Selector Dropdown -->
           <!-- Language Selector -->
-          <form class="d-flex ms-2">
-            <select class="form-select" aria-label="Language selector">
-              <!-- <option selected>Language</option> -->
-              <option value="en">English</option>
-              <option value="es">Bengali</option>
-              <option value="fr">Hindi</option>
-              <option value="de">Sanskrit</option>
-              <!-- Add more languages as needed -->
-            </select>
-          </form>
+          <li class="nav-item">
+            <div id="google_translate_element"></div>
+        </li>
+         
         </ul>
       </div>
     </div>
@@ -201,7 +195,7 @@
           </span>
           <span>A market with only verified buyers and sellers.</span>
         </li>
-        </li>
+        
       </ul>
     </div>
   </div>
@@ -269,6 +263,14 @@
 
 
   </footer>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
