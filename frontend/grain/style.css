@@ -1,0 +1,114 @@
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+  }
+
+span{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(144, 238, 144, 0.5);
+    color: rgb(14, 42, 2);
+    h4{
+        color: rgb(1, 40, 4);
+    }
+    
+}
+
+#imggg {
+    mix-blend-mode: multiply; /* Or another blend mode */
+  }
+
+#img{
+    border: 3px solid black;
+}
+
+#textFooter{
+    text-decoration: none;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    color: rgba(4, 101, 14, 0.915);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bimg{
+    height: 30px;
+    width: 30px;
+    mix-blend-mode: multiply;
+}
+
+#MBackImg{
+    background-image: url('/frontend/images/Untitled\ design.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.hr_separator {
+    width: 80%; /* Adjust the width as needed */
+    border: 0; /* Remove the default border */
+    border-top: 5px solid #ffffff; /* Set the thickness and color of the line */
+    margin: 20px auto; /* Center the line horizontally with margin */
+}
+
+#activeLink {
+    color: #319610; /* Set your desired color */
+    font-weight: bold; /* Optional: Make the text bold */
+}
+.objective{
+    margin: 10px;
+}
+#solution{
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    color:rgb(144, 238, 144); 
+    
+}
+.objective_p1{
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.row {
+    margin-top: 10px;
+    display: flex;
+    align-items: center; /* Optional: vertically centers the content */
+  }
+  
+  .objimg {
+    margin-right: 20px; /* Adjust the spacing between the image and the text */
+  }
+  
+  .objective2 {
+    flex: 1; /* Optional: allows the text block to take up the remaining space */
+    font-size: 17px;
+  }
+#venimg{
+    height: 350px;
+    width: 500px;
+}
+#pree{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#objective_p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.objcheckmark{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* #footer{
+    background-color: green;
+} */
